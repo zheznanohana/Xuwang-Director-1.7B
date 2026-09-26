@@ -1,5 +1,7 @@
 # Xuwang-Director-1.7B · 虚妄决策模型
 
+[Hugging Face 模型](https://huggingface.co/nanohana233/Xuwang-Director-1.7B) · [训练数据](https://huggingface.co/datasets/nanohana233/Xuwang-Director-Data) · [完整 GitHub Release](https://github.com/zheznanohana/Xuwang-Director-1.7B/releases/tag/v0.1.0)
+
 [中文说明](README.zh-CN.md) | English
 
 **A local game director, not a chatbot.**

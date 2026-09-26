@@ -1,5 +1,7 @@
 # 虚妄决策模型 · Xuwang-Director-1.7B
 
+[Hugging Face 模型](https://huggingface.co/nanohana233/Xuwang-Director-1.7B) · [训练数据](https://huggingface.co/datasets/nanohana233/Xuwang-Director-Data) · [完整 GitHub Release](https://github.com/zheznanohana/Xuwang-Director-1.7B/releases/tag/v0.1.0)
+
 **不是让 AI 替我们做游戏，而是为游戏训练一个导演。**
 
 虚妄是一个基于 Qwen3-1.7B-Base 微调、蒸馏的本地游戏决策模型。它不通过生成聊天文本来表达决定，而是用 193 个类型化输出头，直接为十类游戏任务输出候选概率。模型给出偏好，游戏规则负责约束、校验与执行。
