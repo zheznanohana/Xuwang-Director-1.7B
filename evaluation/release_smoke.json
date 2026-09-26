@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-27",
+  "backend": "Vulkan",
+  "startup_seconds": 7.5,
+  "unit_tests_passed": 9,
+  "documented_cli": "passed",
+  "model_checks": {
+    "checkpoint_step": 2000,
+    "selected_best_step": 2000,
+    "adapter_tensors_equal": 392,
+    "head_max_abs_diff": 0,
+    "scale": 8.69564437866211
+  },
+  "examples": [
+    {
+      "example": "camp",
+      "hidden_size": 2048,
+      "milliseconds": 63.0,
+      "selections": {
+        "tempo": "fast",
+        "damage": "low",
+        "tactics": "high",
+        "overall": "good"
+      }
+    },
+    {
+      "example": "flavor",
+      "hidden_size": 2048,
+      "milliseconds": 31.0,
+      "selections": {
+        "tone": "solemn",
+        "style_tags": [
+          "冷峻",
+          "压抑",
+          "庄严"
+        ]
+      }
+    }
+  ]
+}

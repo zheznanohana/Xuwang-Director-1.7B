@@ -1,0 +1,119 @@
+{
+ "sample_rows": 300,
+ "reference": {
+  "kind": "HF merged fp16 on GPU",
+  "test_acc": 0.7679,
+  "conversion_check": null
+ },
+ "game_threads": 8,
+ "quants": {
+  "f16": {
+   "size_mb": 3287.6,
+   "rss_mb": 5197,
+   "startup_s": 7.7,
+   "agreement_by_channel": {
+    "boss_tactic@1": 1.0,
+    "camp_assessment@1": 1.0,
+    "card_procurement@1": 1.0,
+    "difficulty_adaptation@1": 1.0,
+    "encounter_flavor@1": 1.0,
+    "encounter_procurement@1": 0.9981,
+    "fate_analysis@1": 1.0,
+    "music_scene@1": 1.0,
+    "music_score@1": 0.9995,
+    "nemesis_director@1": 1.0
+   },
+   "field_agreement": 0.9996,
+   "test_acc": 0.7681,
+   "latency_ms": {
+    "p50": 1183.2,
+    "p95": 4625.9
+   },
+   "latency_ms_4t": {
+    "p50": 1822.1,
+    "p95": 7069.6
+   }
+  },
+  "q8_0": {
+   "size_mb": 1749.4,
+   "rss_mb": 3877,
+   "startup_s": 2.7,
+   "agreement_by_channel": {
+    "boss_tactic@1": 1.0,
+    "camp_assessment@1": 1.0,
+    "card_procurement@1": 0.9994,
+    "difficulty_adaptation@1": 0.9952,
+    "encounter_flavor@1": 1.0,
+    "encounter_procurement@1": 0.9925,
+    "fate_analysis@1": 1.0,
+    "music_scene@1": 1.0,
+    "music_score@1": 0.9975,
+    "nemesis_director@1": 1.0
+   },
+   "field_agreement": 0.998,
+   "test_acc": 0.768,
+   "latency_ms": {
+    "p50": 1262.7,
+    "p95": 4726.3
+   },
+   "latency_ms_4t": {
+    "p50": 1821.6,
+    "p95": 6759.9
+   }
+  },
+  "q5_K_M": {
+   "size_mb": 1199.6,
+   "rss_mb": 3122,
+   "startup_s": 1.8,
+   "agreement_by_channel": {
+    "boss_tactic@1": 1.0,
+    "camp_assessment@1": 1.0,
+    "card_procurement@1": 0.995,
+    "difficulty_adaptation@1": 0.981,
+    "encounter_flavor@1": 1.0,
+    "encounter_procurement@1": 0.9851,
+    "fate_analysis@1": 0.9875,
+    "music_scene@1": 0.9933,
+    "music_score@1": 0.9858,
+    "nemesis_director@1": 0.9833
+   },
+   "field_agreement": 0.9894,
+   "test_acc": 0.7661,
+   "latency_ms": {
+    "p50": 2012.1,
+    "p95": 7224.3
+   },
+   "latency_ms_4t": {
+    "p50": 2708.4,
+    "p95": 10496.2
+   }
+  },
+  "q4_K_M": {
+   "size_mb": 1056.1,
+   "rss_mb": 3829,
+   "startup_s": 2.7,
+   "agreement_by_channel": {
+    "boss_tactic@1": 1.0,
+    "camp_assessment@1": 1.0,
+    "card_procurement@1": 0.9978,
+    "difficulty_adaptation@1": 0.9571,
+    "encounter_flavor@1": 1.0,
+    "encounter_procurement@1": 0.9757,
+    "fate_analysis@1": 0.9958,
+    "music_scene@1": 0.9867,
+    "music_score@1": 0.976,
+    "nemesis_director@1": 0.9611
+   },
+   "field_agreement": 0.9842,
+   "test_acc": 0.7672,
+   "latency_ms": {
+    "p50": 894.6,
+    "p95": 3457.4
+   },
+   "latency_ms_4t": {
+    "p50": 1803.4,
+    "p95": 6013.6
+   }
+  }
+ }
+}

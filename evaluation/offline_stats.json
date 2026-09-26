@@ -1,0 +1,446 @@
+{
+ "val": {
+  "n_rows": 4512,
+  "macro": {
+   "final_best": {
+    "mean": 0.7757,
+    "ci95": [
+     0.7699,
+     0.7813
+    ],
+    "channels": {
+     "boss_tactic@1": 0.5106,
+     "camp_assessment@1": 0.9878,
+     "card_procurement@1": 0.9224,
+     "difficulty_adaptation@1": 0.7615,
+     "encounter_flavor@1": 0.9666,
+     "encounter_procurement@1": 0.5876,
+     "fate_analysis@1": 0.6937,
+     "music_scene@1": 0.8171,
+     "music_score@1": 0.6901,
+     "nemesis_director@1": 0.8194
+    }
+   },
+   "step_2800": {
+    "mean": 0.7743,
+    "ci95": [
+     0.7686,
+     0.7799
+    ],
+    "channels": {
+     "boss_tactic@1": 0.4589,
+     "camp_assessment@1": 0.9898,
+     "card_procurement@1": 0.9157,
+     "difficulty_adaptation@1": 0.7648,
+     "encounter_flavor@1": 0.9666,
+     "encounter_procurement@1": 0.6061,
+     "fate_analysis@1": 0.6925,
+     "music_scene@1": 0.8304,
+     "music_score@1": 0.7046,
+     "nemesis_director@1": 0.8136
+    }
+   },
+   "step_3000": {
+    "mean": 0.7758,
+    "ci95": [
+     0.7699,
+     0.7814
+    ],
+    "channels": {
+     "boss_tactic@1": 0.4553,
+     "camp_assessment@1": 0.9929,
+     "card_procurement@1": 0.9215,
+     "difficulty_adaptation@1": 0.7622,
+     "encounter_flavor@1": 0.9666,
+     "encounter_procurement@1": 0.609,
+     "fate_analysis@1": 0.6937,
+     "music_scene@1": 0.8316,
+     "music_score@1": 0.7049,
+     "nemesis_director@1": 0.8198
+    }
+   },
+   "mlp": {
+    "mean": 0.7609,
+    "ci95": [
+     0.7547,
+     0.7667
+    ],
+    "channels": {
+     "boss_tactic@1": 0.5065,
+     "camp_assessment@1": 0.9746,
+     "card_procurement@1": 0.9135,
+     "difficulty_adaptation@1": 0.7065,
+     "encounter_flavor@1": 0.9666,
+     "encounter_procurement@1": 0.55,
+     "fate_analysis@1": 0.6913,
+     "music_scene@1": 0.7899,
+     "music_score@1": 0.6721,
+     "nemesis_director@1": 0.8376
+    }
+   },
+   "mlp_torch_h128": {
+    "mean": 0.7686,
+    "ci95": [
+     0.7629,
+     0.7744
+    ],
+    "channels": {
+     "boss_tactic@1": 0.4778,
+     "camp_assessment@1": 0.9695,
+     "card_procurement@1": 0.9231,
+     "difficulty_adaptation@1": 0.7412,
+     "encounter_flavor@1": 0.9666,
+     "encounter_procurement@1": 0.5682,
+     "fate_analysis@1": 0.6913,
+     "music_scene@1": 0.8234,
+     "music_score@1": 0.6854,
+     "nemesis_director@1": 0.8398
+    }
+   },
+   "mlp_2layer": {
+    "mean": 0.7658,
+    "ci95": [
+     0.76,
+     0.7715
+    ],
+    "channels": {
+     "boss_tactic@1": 0.4562,
+     "camp_assessment@1": 0.9543,
+     "card_procurement@1": 0.9148,
+     "difficulty_adaptation@1": 0.7448,
+     "encounter_flavor@1": 0.9666,
+     "encounter_procurement@1": 0.5775,
+     "fate_analysis@1": 0.6913,
+     "music_scene@1": 0.8259,
+     "music_score@1": 0.6927,
+     "nemesis_director@1": 0.8339
+    }
+   },
+   "mlp_rel": {
+    "mean": 0.766,
+    "ci95": [
+     0.7601,
+     0.7718
+    ],
+    "channels": {
+     "boss_tactic@1": 0.4998,
+     "camp_assessment@1": 0.9228,
+     "card_procurement@1": 0.9143,
+     "difficulty_adaptation@1": 0.7587,
+     "encounter_flavor@1": 0.9666,
+     "encounter_procurement@1": 0.5778,
+     "fate_analysis@1": 0.6913,
+     "music_scene@1": 0.819,
+     "music_score@1": 0.6984,
+     "nemesis_director@1": 0.8115
+    }
+   },
+   "probe_1p7b": {
+    "mean": 0.7285,
+    "ci95": [
+     0.7222,
+     0.7348
+    ],
+    "channels": {
+     "boss_tactic@1": 0.4836,
+     "camp_assessment@1": 0.7591,
+     "card_procurement@1": 0.9203,
+     "difficulty_adaptation@1": 0.7204,
+     "encounter_flavor@1": 0.9542,
+     "encounter_procurement@1": 0.5362,
+     "fate_analysis@1": 0.6956,
+     "music_scene@1": 0.7532,
+     "music_score@1": 0.6771,
+     "nemesis_director@1": 0.7851
+    }
+   }
+  },
+  "pairs_vs_ref": {
+   "final_best-step_2800": {
+    "diff": 0.0014,
+    "ci95": [
+     -0.0014,
+     0.0042
+    ],
+    "p": 0.3444,
+    "p_holm": 0.6888
+   },
+   "final_best-step_3000": {
+    "diff": -0.0001,
+    "ci95": [
+     -0.0028,
+     0.0026
+    ],
+    "p": 0.95,
+    "p_holm": 0.95
+   },
+   "final_best-mlp": {
+    "diff": 0.0148,
+    "ci95": [
+     0.0106,
+     0.0191
+    ],
+    "p": 0.0,
+    "p_holm": 0.0
+   },
+   "final_best-mlp_torch_h128": {
+    "diff": 0.0071,
+    "ci95": [
+     0.0031,
+     0.0111
+    ],
+    "p": 0.0006,
+    "p_holm": 0.0018
+   },
+   "final_best-mlp_2layer": {
+    "diff": 0.0099,
+    "ci95": [
+     0.0058,
+     0.0139
+    ],
+    "p": 0.0,
+    "p_holm": 0.0
+   },
+   "final_best-mlp_rel": {
+    "diff": 0.0097,
+    "ci95": [
+     0.0056,
+     0.0138
+    ],
+    "p": 0.0,
+    "p_holm": 0.0
+   },
+   "final_best-probe_1p7b": {
+    "diff": 0.0472,
+    "ci95": [
+     0.0423,
+     0.0523
+    ],
+    "p": 0.0,
+    "p_holm": 0.0
+   }
+  }
+ },
+ "test": {
+  "n_rows": 4481,
+  "macro": {
+   "final_best": {
+    "mean": 0.7719,
+    "ci95": [
+     0.7659,
+     0.7777
+    ],
+    "channels": {
+     "boss_tactic@1": 0.516,
+     "camp_assessment@1": 0.9771,
+     "card_procurement@1": 0.9227,
+     "difficulty_adaptation@1": 0.7336,
+     "encounter_flavor@1": 0.9675,
+     "encounter_procurement@1": 0.5427,
+     "fate_analysis@1": 0.7043,
+     "music_scene@1": 0.8473,
+     "music_score@1": 0.6862,
+     "nemesis_director@1": 0.8217
+    }
+   },
+   "step_2800": {
+    "mean": 0.7731,
+    "ci95": [
+     0.7672,
+     0.7789
+    ],
+    "channels": {
+     "boss_tactic@1": 0.4632,
+     "camp_assessment@1": 0.9877,
+     "card_procurement@1": 0.9258,
+     "difficulty_adaptation@1": 0.7404,
+     "encounter_flavor@1": 0.9675,
+     "encounter_procurement@1": 0.5615,
+     "fate_analysis@1": 0.7037,
+     "music_scene@1": 0.8524,
+     "music_score@1": 0.7003,
+     "nemesis_director@1": 0.8288
+    }
+   },
+   "step_3000": {
+    "mean": 0.7727,
+    "ci95": [
+     0.7667,
+     0.7784
+    ],
+    "channels": {
+     "boss_tactic@1": 0.4587,
+     "camp_assessment@1": 0.9877,
+     "card_procurement@1": 0.9241,
+     "difficulty_adaptation@1": 0.7414,
+     "encounter_flavor@1": 0.9675,
+     "encounter_procurement@1": 0.5619,
+     "fate_analysis@1": 0.7037,
+     "music_scene@1": 0.8537,
+     "music_score@1": 0.7018,
+     "nemesis_director@1": 0.8266
+    }
+   },
+   "mlp": {
+    "mean": 0.765,
+    "ci95": [
+     0.7589,
+     0.7709
+    ],
+    "channels": {
+     "boss_tactic@1": 0.5201,
+     "camp_assessment@1": 0.9736,
+     "card_procurement@1": 0.924,
+     "difficulty_adaptation@1": 0.7012,
+     "encounter_flavor@1": 0.9675,
+     "encounter_procurement@1": 0.5194,
+     "fate_analysis@1": 0.7061,
+     "music_scene@1": 0.8345,
+     "music_score@1": 0.6716,
+     "nemesis_director@1": 0.8318
+    }
+   },
+   "mlp_torch_h128": {
+    "mean": 0.7654,
+    "ci95": [
+     0.7593,
+     0.7713
+    ],
+    "channels": {
+     "boss_tactic@1": 0.4885,
+     "camp_assessment@1": 0.9639,
+     "card_procurement@1": 0.92,
+     "difficulty_adaptation@1": 0.7248,
+     "encounter_flavor@1": 0.9675,
+     "encounter_procurement@1": 0.5273,
+     "fate_analysis@1": 0.7061,
+     "music_scene@1": 0.8294,
+     "music_score@1": 0.6887,
+     "nemesis_director@1": 0.8377
+    }
+   },
+   "mlp_2layer": {
+    "mean": 0.7657,
+    "ci95": [
+     0.7599,
+     0.7717
+    ],
+    "channels": {
+     "boss_tactic@1": 0.4628,
+     "camp_assessment@1": 0.9489,
+     "card_procurement@1": 0.927,
+     "difficulty_adaptation@1": 0.7229,
+     "encounter_flavor@1": 0.9675,
+     "encounter_procurement@1": 0.5404,
+     "fate_analysis@1": 0.7061,
+     "music_scene@1": 0.8454,
+     "music_score@1": 0.6936,
+     "nemesis_director@1": 0.8426
+    }
+   },
+   "mlp_rel": {
+    "mean": 0.7648,
+    "ci95": [
+     0.7588,
+     0.7707
+    ],
+    "channels": {
+     "boss_tactic@1": 0.5083,
+     "camp_assessment@1": 0.9252,
+     "card_procurement@1": 0.9268,
+     "difficulty_adaptation@1": 0.7313,
+     "encounter_flavor@1": 0.9675,
+     "encounter_procurement@1": 0.539,
+     "fate_analysis@1": 0.7061,
+     "music_scene@1": 0.8345,
+     "music_score@1": 0.6936,
+     "nemesis_director@1": 0.8158
+    }
+   },
+   "probe_1p7b": {
+    "mean": 0.7273,
+    "ci95": [
+     0.7209,
+     0.7337
+    ],
+    "channels": {
+     "boss_tactic@1": 0.4903,
+     "camp_assessment@1": 0.7456,
+     "card_procurement@1": 0.9146,
+     "difficulty_adaptation@1": 0.703,
+     "encounter_flavor@1": 0.9553,
+     "encounter_procurement@1": 0.5105,
+     "fate_analysis@1": 0.6963,
+     "music_scene@1": 0.7668,
+     "music_score@1": 0.6791,
+     "nemesis_director@1": 0.8119
+    }
+   }
+  },
+  "pairs_vs_ref": {
+   "final_best-step_2800": {
+    "diff": -0.0012,
+    "ci95": [
+     -0.004,
+     0.0015
+    ],
+    "p": 0.385,
+    "p_holm": 0.77
+   },
+   "final_best-step_3000": {
+    "diff": -0.0008,
+    "ci95": [
+     -0.0035,
+     0.0018
+    ],
+    "p": 0.5574,
+    "p_holm": 0.77
+   },
+   "final_best-mlp": {
+    "diff": 0.0069,
+    "ci95": [
+     0.0025,
+     0.0114
+    ],
+    "p": 0.0016,
+    "p_holm": 0.008
+   },
+   "final_best-mlp_torch_h128": {
+    "diff": 0.0065,
+    "ci95": [
+     0.0023,
+     0.0106
+    ],
+    "p": 0.002,
+    "p_holm": 0.008
+   },
+   "final_best-mlp_2layer": {
+    "diff": 0.0062,
+    "ci95": [
+     0.0021,
+     0.0101
+    ],
+    "p": 0.003,
+    "p_holm": 0.009
+   },
+   "final_best-mlp_rel": {
+    "diff": 0.0071,
+    "ci95": [
+     0.003,
+     0.0111
+    ],
+    "p": 0.0006,
+    "p_holm": 0.0036
+   },
+   "final_best-probe_1p7b": {
+    "diff": 0.0446,
+    "ci95": [
+     0.0399,
+     0.0493
+    ],
+    "p": 0.0,
+    "p_holm": 0.0
+   }
+  }
+ }
+}

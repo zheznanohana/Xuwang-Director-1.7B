@@ -1,0 +1,3063 @@
+{
+  "boss_tactic@1/tactic": {
+    "kind": "choice",
+    "options": [
+      "siphon",
+      "abyss_cross",
+      "nova",
+      "eclipse_diagonal",
+      "world_rend",
+      "advance",
+      "move"
+    ]
+  },
+  "difficulty_adaptation@1/challenge_delta": {
+    "kind": "choice",
+    "options": [
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  "difficulty_adaptation@1/hp_bucket": {
+    "kind": "choice",
+    "options": [
+      "-5",
+      "-4",
+      "-3",
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ]
+  },
+  "difficulty_adaptation@1/attack_delta": {
+    "kind": "choice",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "2"
+    ]
+  },
+  "difficulty_adaptation@1/block_delta": {
+    "kind": "choice",
+    "options": [
+      "-2",
+      "-1",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "difficulty_adaptation@1/move_delta": {
+    "kind": "choice",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "2"
+    ]
+  },
+  "difficulty_adaptation@1/trait_id": {
+    "kind": "choice",
+    "options": [
+      "none",
+      "pursuit",
+      "adaptive_guard",
+      "status_reactor"
+    ]
+  },
+  "difficulty_adaptation@1/reason_tags": {
+    "kind": "multi",
+    "options": [
+      "above_seed_curve",
+      "below_seed_curve",
+      "high_survival",
+      "low_survival",
+      "fast_clears",
+      "high_attrition",
+      "strong_reactions",
+      "stable_build",
+      "uncertain_signal"
+    ]
+  },
+  "nemesis_director@1/archetype": {
+    "kind": "choice",
+    "options": [
+      "furnace_examiner",
+      "storm_mirror",
+      "arcane_archivist",
+      "crown_hunter"
+    ]
+  },
+  "nemesis_director@1/phase_tag": {
+    "kind": "choice",
+    "options": [
+      "accelerating_exam",
+      "guard_break_exam",
+      "steady_exam"
+    ]
+  },
+  "nemesis_director@1/arena_tag": {
+    "kind": "choice",
+    "options": [
+      "open_crown",
+      "split_forge",
+      "narrow_ring"
+    ]
+  },
+  "nemesis_director@1/ultimate_card": {
+    "kind": "choice",
+    "options": [
+      "phoenix_thesis",
+      "storm_coronation",
+      "perfect_preparation",
+      "apprentice_finale"
+    ]
+  },
+  "nemesis_director@1/player_tags": {
+    "kind": "multi",
+    "options": [
+      "fire_specialist",
+      "lightning_specialist",
+      "utility_planner",
+      "terrain_tactician",
+      "risk_taker",
+      "cautious_survivor",
+      "card_collector",
+      "deck_curator",
+      "scholar",
+      "explorer",
+      "burst_caster",
+      "attrition_caster",
+      "low_defense"
+    ]
+  },
+  "nemesis_director@1/mechanic_tags": {
+    "kind": "multi",
+    "options": [
+      "pursuit",
+      "fortified",
+      "heavy_strikes",
+      "adaptive_guard",
+      "status_reactor",
+      "storm_cycle"
+    ]
+  },
+  "fate_analysis@1/adj_fire": {
+    "kind": "choice",
+    "options": [
+      "-30",
+      "-15",
+      "0",
+      "15",
+      "30"
+    ]
+  },
+  "fate_analysis@1/adj_lightning": {
+    "kind": "choice",
+    "options": [
+      "-30",
+      "-15",
+      "0",
+      "15",
+      "30"
+    ]
+  },
+  "fate_analysis@1/adj_fire_water": {
+    "kind": "choice",
+    "options": [
+      "-30",
+      "-15",
+      "0",
+      "15",
+      "30"
+    ]
+  },
+  "fate_analysis@1/adj_water_lightning": {
+    "kind": "choice",
+    "options": [
+      "-30",
+      "-15",
+      "0",
+      "15",
+      "30"
+    ]
+  },
+  "fate_analysis@1/adj_terrain_control": {
+    "kind": "choice",
+    "options": [
+      "-30",
+      "-15",
+      "0",
+      "15",
+      "30"
+    ]
+  },
+  "fate_analysis@1/adj_utility_hybrid": {
+    "kind": "choice",
+    "options": [
+      "-30",
+      "-15",
+      "0",
+      "15",
+      "30"
+    ]
+  },
+  "fate_analysis@1/bias_shift": {
+    "kind": "choice",
+    "options": [
+      "-0.4",
+      "-0.2",
+      "0.0",
+      "0.2",
+      "0.4"
+    ]
+  },
+  "fate_analysis@1/uncertainty": {
+    "kind": "choice",
+    "options": [
+      "0.12",
+      "0.2",
+      "0.3",
+      "0.42"
+    ]
+  },
+  "music_scene@1/style_id": {
+    "kind": "choice",
+    "options": [
+      "apprentice_theme",
+      "ember_march",
+      "storm_counterpoint",
+      "terrain_clockwork",
+      "safe_archive",
+      "nemesis_exam",
+      "crown_resolution"
+    ]
+  },
+  "music_scene@1/density_profile": {
+    "kind": "choice",
+    "options": [
+      "sparse",
+      "balanced",
+      "dense"
+    ]
+  },
+  "music_scene@1/rhythm_profile": {
+    "kind": "choice",
+    "options": [
+      "minimal",
+      "steady",
+      "driving",
+      "relentless"
+    ]
+  },
+  "music_scene@1/bpm_shift": {
+    "kind": "choice",
+    "options": [
+      "-4",
+      "0",
+      "4"
+    ]
+  },
+  "music_scene@1/tension_shift": {
+    "kind": "choice",
+    "options": [
+      "-0.1",
+      "0.0",
+      "0.1"
+    ]
+  },
+  "encounter_procurement@1/e0_chassis": {
+    "kind": "choice",
+    "options": [
+      "boss",
+      "brute",
+      "caster",
+      "raider",
+      "skirmisher",
+      "warden",
+      "wisp"
+    ]
+  },
+  "encounter_procurement@1/e0_hp_tier": {
+    "kind": "choice",
+    "options": [
+      "boss_core",
+      "fragile",
+      "massive",
+      "standard",
+      "sturdy"
+    ]
+  },
+  "encounter_procurement@1/e0_attack": {
+    "kind": "choice",
+    "options": [
+      "boss_nova",
+      "bull_rush",
+      "cecilia_absolution_ray",
+      "cecilia_mercy_seal",
+      "cecilia_purifying_wave",
+      "cecilia_sanctuary",
+      "chain_hook",
+      "charge_cast",
+      "charged_trap",
+      "demon_abyss_cross",
+      "demon_cataclysm",
+      "demon_crown_nova",
+      "demon_eclipse_diagonal",
+      "demon_soul_chain",
+      "demon_world_rend",
+      "fan_barrage",
+      "frost_hex",
+      "guard_breaker",
+      "heavy_strike",
+      "ignite_cast",
+      "lilia_echo_cast",
+      "lilia_mirror_barrage",
+      "lilia_mirror_counter",
+      "lilia_reflected_step",
+      "mana_siphon",
+      "mireille_breakstep",
+      "mireille_intercept_guard",
+      "mireille_old_rhythm",
+      "mireille_predictive_cut",
+      "position_exchange",
+      "roland_guardian_vow",
+      "roland_holy_fan",
+      "roland_judgment_chain",
+      "roland_oath_charge",
+      "seal_field",
+      "skirmish",
+      "strike",
+      "summon_wisp",
+      "venom_spit",
+      "ward_ally"
+    ]
+  },
+  "encounter_procurement@1/e0_defense": {
+    "kind": "choice",
+    "options": [
+      "adaptive_guard",
+      "buckler",
+      "counter_stance",
+      "fortified",
+      "guardian_link",
+      "last_stand",
+      "phase_veil",
+      "reactive_armor",
+      "regenerative_hide",
+      "unarmored"
+    ]
+  },
+  "encounter_procurement@1/e0_movement": {
+    "kind": "choice",
+    "options": [
+      "anchored",
+      "blink_step",
+      "reckless_stride",
+      "relentless",
+      "steady",
+      "swift"
+    ]
+  },
+  "encounter_procurement@1/e0_behavior": {
+    "kind": "choice",
+    "options": [
+      "berserk",
+      "flank",
+      "formation_swap",
+      "hold_line",
+      "keep_distance",
+      "kite",
+      "opportunist",
+      "pack_tactics",
+      "protector",
+      "pursuit",
+      "zone_keeper"
+    ]
+  },
+  "encounter_procurement@1/e0_weakness": {
+    "kind": "choice",
+    "options": [
+      "exposed_guard",
+      "fragile_core",
+      "none",
+      "rooted_feet",
+      "slow_windup"
+    ]
+  },
+  "encounter_procurement@1/e0_traits": {
+    "kind": "multi",
+    "options": [
+      "fortified_start",
+      "guard_cycle",
+      "heavy_pressure",
+      "nova_cycle",
+      "status_reactor",
+      "storm_cycle"
+    ]
+  },
+  "encounter_procurement@1/e1_chassis": {
+    "kind": "choice",
+    "options": [
+      "boss",
+      "brute",
+      "caster",
+      "raider",
+      "skirmisher",
+      "warden",
+      "wisp"
+    ]
+  },
+  "encounter_procurement@1/e1_hp_tier": {
+    "kind": "choice",
+    "options": [
+      "boss_core",
+      "fragile",
+      "massive",
+      "standard",
+      "sturdy"
+    ]
+  },
+  "encounter_procurement@1/e1_attack": {
+    "kind": "choice",
+    "options": [
+      "boss_nova",
+      "bull_rush",
+      "cecilia_absolution_ray",
+      "cecilia_mercy_seal",
+      "cecilia_purifying_wave",
+      "cecilia_sanctuary",
+      "chain_hook",
+      "charge_cast",
+      "charged_trap",
+      "demon_abyss_cross",
+      "demon_cataclysm",
+      "demon_crown_nova",
+      "demon_eclipse_diagonal",
+      "demon_soul_chain",
+      "demon_world_rend",
+      "fan_barrage",
+      "frost_hex",
+      "guard_breaker",
+      "heavy_strike",
+      "ignite_cast",
+      "lilia_echo_cast",
+      "lilia_mirror_barrage",
+      "lilia_mirror_counter",
+      "lilia_reflected_step",
+      "mana_siphon",
+      "mireille_breakstep",
+      "mireille_intercept_guard",
+      "mireille_old_rhythm",
+      "mireille_predictive_cut",
+      "position_exchange",
+      "roland_guardian_vow",
+      "roland_holy_fan",
+      "roland_judgment_chain",
+      "roland_oath_charge",
+      "seal_field",
+      "skirmish",
+      "strike",
+      "summon_wisp",
+      "venom_spit",
+      "ward_ally"
+    ]
+  },
+  "encounter_procurement@1/e1_defense": {
+    "kind": "choice",
+    "options": [
+      "adaptive_guard",
+      "buckler",
+      "counter_stance",
+      "fortified",
+      "guardian_link",
+      "last_stand",
+      "phase_veil",
+      "reactive_armor",
+      "regenerative_hide",
+      "unarmored"
+    ]
+  },
+  "encounter_procurement@1/e1_movement": {
+    "kind": "choice",
+    "options": [
+      "anchored",
+      "blink_step",
+      "reckless_stride",
+      "relentless",
+      "steady",
+      "swift"
+    ]
+  },
+  "encounter_procurement@1/e1_behavior": {
+    "kind": "choice",
+    "options": [
+      "berserk",
+      "flank",
+      "formation_swap",
+      "hold_line",
+      "keep_distance",
+      "kite",
+      "opportunist",
+      "pack_tactics",
+      "protector",
+      "pursuit",
+      "zone_keeper"
+    ]
+  },
+  "encounter_procurement@1/e1_weakness": {
+    "kind": "choice",
+    "options": [
+      "exposed_guard",
+      "fragile_core",
+      "none",
+      "rooted_feet",
+      "slow_windup"
+    ]
+  },
+  "encounter_procurement@1/e1_traits": {
+    "kind": "multi",
+    "options": [
+      "fortified_start",
+      "guard_cycle",
+      "heavy_pressure",
+      "nova_cycle",
+      "status_reactor",
+      "storm_cycle"
+    ]
+  },
+  "encounter_procurement@1/e2_chassis": {
+    "kind": "choice",
+    "options": [
+      "boss",
+      "brute",
+      "caster",
+      "raider",
+      "skirmisher",
+      "warden",
+      "wisp"
+    ]
+  },
+  "encounter_procurement@1/e2_hp_tier": {
+    "kind": "choice",
+    "options": [
+      "boss_core",
+      "fragile",
+      "massive",
+      "standard",
+      "sturdy"
+    ]
+  },
+  "encounter_procurement@1/e2_attack": {
+    "kind": "choice",
+    "options": [
+      "boss_nova",
+      "bull_rush",
+      "cecilia_absolution_ray",
+      "cecilia_mercy_seal",
+      "cecilia_purifying_wave",
+      "cecilia_sanctuary",
+      "chain_hook",
+      "charge_cast",
+      "charged_trap",
+      "demon_abyss_cross",
+      "demon_cataclysm",
+      "demon_crown_nova",
+      "demon_eclipse_diagonal",
+      "demon_soul_chain",
+      "demon_world_rend",
+      "fan_barrage",
+      "frost_hex",
+      "guard_breaker",
+      "heavy_strike",
+      "ignite_cast",
+      "lilia_echo_cast",
+      "lilia_mirror_barrage",
+      "lilia_mirror_counter",
+      "lilia_reflected_step",
+      "mana_siphon",
+      "mireille_breakstep",
+      "mireille_intercept_guard",
+      "mireille_old_rhythm",
+      "mireille_predictive_cut",
+      "position_exchange",
+      "roland_guardian_vow",
+      "roland_holy_fan",
+      "roland_judgment_chain",
+      "roland_oath_charge",
+      "seal_field",
+      "skirmish",
+      "strike",
+      "summon_wisp",
+      "venom_spit",
+      "ward_ally"
+    ]
+  },
+  "encounter_procurement@1/e2_defense": {
+    "kind": "choice",
+    "options": [
+      "adaptive_guard",
+      "buckler",
+      "counter_stance",
+      "fortified",
+      "guardian_link",
+      "last_stand",
+      "phase_veil",
+      "reactive_armor",
+      "regenerative_hide",
+      "unarmored"
+    ]
+  },
+  "encounter_procurement@1/e2_movement": {
+    "kind": "choice",
+    "options": [
+      "anchored",
+      "blink_step",
+      "reckless_stride",
+      "relentless",
+      "steady",
+      "swift"
+    ]
+  },
+  "encounter_procurement@1/e2_behavior": {
+    "kind": "choice",
+    "options": [
+      "berserk",
+      "flank",
+      "formation_swap",
+      "hold_line",
+      "keep_distance",
+      "kite",
+      "opportunist",
+      "pack_tactics",
+      "protector",
+      "pursuit",
+      "zone_keeper"
+    ]
+  },
+  "encounter_procurement@1/e2_weakness": {
+    "kind": "choice",
+    "options": [
+      "exposed_guard",
+      "fragile_core",
+      "none",
+      "rooted_feet",
+      "slow_windup"
+    ]
+  },
+  "encounter_procurement@1/e2_traits": {
+    "kind": "multi",
+    "options": [
+      "fortified_start",
+      "guard_cycle",
+      "heavy_pressure",
+      "nova_cycle",
+      "status_reactor",
+      "storm_cycle"
+    ]
+  },
+  "encounter_procurement@1/e3_chassis": {
+    "kind": "choice",
+    "options": [
+      "boss",
+      "brute",
+      "caster",
+      "raider",
+      "skirmisher",
+      "warden",
+      "wisp"
+    ]
+  },
+  "encounter_procurement@1/e3_hp_tier": {
+    "kind": "choice",
+    "options": [
+      "boss_core",
+      "fragile",
+      "massive",
+      "standard",
+      "sturdy"
+    ]
+  },
+  "encounter_procurement@1/e3_attack": {
+    "kind": "choice",
+    "options": [
+      "boss_nova",
+      "bull_rush",
+      "cecilia_absolution_ray",
+      "cecilia_mercy_seal",
+      "cecilia_purifying_wave",
+      "cecilia_sanctuary",
+      "chain_hook",
+      "charge_cast",
+      "charged_trap",
+      "demon_abyss_cross",
+      "demon_cataclysm",
+      "demon_crown_nova",
+      "demon_eclipse_diagonal",
+      "demon_soul_chain",
+      "demon_world_rend",
+      "fan_barrage",
+      "frost_hex",
+      "guard_breaker",
+      "heavy_strike",
+      "ignite_cast",
+      "lilia_echo_cast",
+      "lilia_mirror_barrage",
+      "lilia_mirror_counter",
+      "lilia_reflected_step",
+      "mana_siphon",
+      "mireille_breakstep",
+      "mireille_intercept_guard",
+      "mireille_old_rhythm",
+      "mireille_predictive_cut",
+      "position_exchange",
+      "roland_guardian_vow",
+      "roland_holy_fan",
+      "roland_judgment_chain",
+      "roland_oath_charge",
+      "seal_field",
+      "skirmish",
+      "strike",
+      "summon_wisp",
+      "venom_spit",
+      "ward_ally"
+    ]
+  },
+  "encounter_procurement@1/e3_defense": {
+    "kind": "choice",
+    "options": [
+      "adaptive_guard",
+      "buckler",
+      "counter_stance",
+      "fortified",
+      "guardian_link",
+      "last_stand",
+      "phase_veil",
+      "reactive_armor",
+      "regenerative_hide",
+      "unarmored"
+    ]
+  },
+  "encounter_procurement@1/e3_movement": {
+    "kind": "choice",
+    "options": [
+      "anchored",
+      "blink_step",
+      "reckless_stride",
+      "relentless",
+      "steady",
+      "swift"
+    ]
+  },
+  "encounter_procurement@1/e3_behavior": {
+    "kind": "choice",
+    "options": [
+      "berserk",
+      "flank",
+      "formation_swap",
+      "hold_line",
+      "keep_distance",
+      "kite",
+      "opportunist",
+      "pack_tactics",
+      "protector",
+      "pursuit",
+      "zone_keeper"
+    ]
+  },
+  "encounter_procurement@1/e3_weakness": {
+    "kind": "choice",
+    "options": [
+      "exposed_guard",
+      "fragile_core",
+      "none",
+      "rooted_feet",
+      "slow_windup"
+    ]
+  },
+  "encounter_procurement@1/e3_traits": {
+    "kind": "multi",
+    "options": [
+      "fortified_start",
+      "guard_cycle",
+      "heavy_pressure",
+      "nova_cycle",
+      "status_reactor",
+      "storm_cycle"
+    ]
+  },
+  "card_procurement@1/c0_target": {
+    "kind": "choice",
+    "options": [
+      "enemy",
+      "self",
+      "empty",
+      "any"
+    ]
+  },
+  "card_procurement@1/c0_cost": {
+    "kind": "choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  "card_procurement@1/c0_range": {
+    "kind": "choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ]
+  },
+  "card_procurement@1/c0_fx0": {
+    "kind": "choice",
+    "options": [
+      "apply_burn",
+      "apply_shock",
+      "chain_shock",
+      "create_charged_terrain",
+      "create_fire_terrain",
+      "create_water_terrain",
+      "deal_damage",
+      "detonate_burn",
+      "detonate_shock",
+      "draw_cards",
+      "exhaust_self",
+      "gain_block",
+      "gain_mp",
+      "pull",
+      "push",
+      "react_conduct",
+      "react_overload",
+      "react_vaporize",
+      "spread_burn",
+      "teleport",
+      "none"
+    ]
+  },
+  "card_procurement@1/c0_fxv0": {
+    "kind": "choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ]
+  },
+  "card_procurement@1/c0_fxc0": {
+    "kind": "choice",
+    "options": [
+      "none",
+      "target_burning",
+      "target_shocked",
+      "target_on_water",
+      "target_on_fire",
+      "target_on_charged",
+      "after_movement",
+      "hp_below_half",
+      "once_per_battle"
+    ]
+  },
+  "card_procurement@1/c0_fx1": {
+    "kind": "choice",
+    "options": [
+      "apply_burn",
+      "apply_shock",
+      "chain_shock",
+      "create_charged_terrain",
+      "create_fire_terrain",
+      "create_water_terrain",
+      "deal_damage",
+      "detonate_burn",
+      "detonate_shock",
+      "draw_cards",
+      "exhaust_self",
+      "gain_block",
+      "gain_mp",
+      "pull",
+      "push",
+      "react_conduct",
+      "react_overload",
+      "react_vaporize",
+      "spread_burn",
+      "teleport",
+      "none"
+    ]
+  },
+  "card_procurement@1/c0_fxv1": {
+    "kind": "choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ]
+  },
+  "card_procurement@1/c0_fxc1": {
+    "kind": "choice",
+    "options": [
+      "none",
+      "target_burning",
+      "target_shocked",
+      "target_on_water",
+      "target_on_fire",
+      "target_on_charged",
+      "after_movement",
+      "hp_below_half",
+      "once_per_battle"
+    ]
+  },
+  "card_procurement@1/c0_fx2": {
+    "kind": "choice",
+    "options": [
+      "apply_burn",
+      "apply_shock",
+      "chain_shock",
+      "create_charged_terrain",
+      "create_fire_terrain",
+      "create_water_terrain",
+      "deal_damage",
+      "detonate_burn",
+      "detonate_shock",
+      "draw_cards",
+      "exhaust_self",
+      "gain_block",
+      "gain_mp",
+      "pull",
+      "push",
+      "react_conduct",
+      "react_overload",
+      "react_vaporize",
+      "spread_burn",
+      "teleport",
+      "none"
+    ]
+  },
+  "card_procurement@1/c0_fxv2": {
+    "kind": "choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ]
+  },
+  "card_procurement@1/c0_fxc2": {
+    "kind": "choice",
+    "options": [
+      "none",
+      "target_burning",
+      "target_shocked",
+      "target_on_water",
+      "target_on_fire",
+      "target_on_charged",
+      "after_movement",
+      "hp_below_half",
+      "once_per_battle"
+    ]
+  },
+  "card_procurement@1/c0_fx3": {
+    "kind": "choice",
+    "options": [
+      "apply_burn",
+      "apply_shock",
+      "chain_shock",
+      "create_charged_terrain",
+      "create_fire_terrain",
+      "create_water_terrain",
+      "deal_damage",
+      "detonate_burn",
+      "detonate_shock",
+      "draw_cards",
+      "exhaust_self",
+      "gain_block",
+      "gain_mp",
+      "pull",
+      "push",
+      "react_conduct",
+      "react_overload",
+      "react_vaporize",
+      "spread_burn",
+      "teleport",
+      "none"
+    ]
+  },
+  "card_procurement@1/c0_fxv3": {
+    "kind": "choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ]
+  },
+  "card_procurement@1/c0_fxc3": {
+    "kind": "choice",
+    "options": [
+      "none",
+      "target_burning",
+      "target_shocked",
+      "target_on_water",
+      "target_on_fire",
+      "target_on_charged",
+      "after_movement",
+      "hp_below_half",
+      "once_per_battle"
+    ]
+  },
+  "card_procurement@1/c0_fx4": {
+    "kind": "choice",
+    "options": [
+      "apply_burn",
+      "apply_shock",
+      "chain_shock",
+      "create_charged_terrain",
+      "create_fire_terrain",
+      "create_water_terrain",
+      "deal_damage",
+      "detonate_burn",
+      "detonate_shock",
+      "draw_cards",
+      "exhaust_self",
+      "gain_block",
+      "gain_mp",
+      "pull",
+      "push",
+      "react_conduct",
+      "react_overload",
+      "react_vaporize",
+      "spread_burn",
+      "teleport",
+      "none"
+    ]
+  },
+  "card_procurement@1/c0_fxv4": {
+    "kind": "choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ]
+  },
+  "card_procurement@1/c0_fxc4": {
+    "kind": "choice",
+    "options": [
+      "none",
+      "target_burning",
+      "target_shocked",
+      "target_on_water",
+      "target_on_fire",
+      "target_on_charged",
+      "after_movement",
+      "hp_below_half",
+      "once_per_battle"
+    ]
+  },
+  "card_procurement@1/c0_tags": {
+    "kind": "multi",
+    "options": [
+      "Fire",
+      "Lightning",
+      "Water",
+      "Terrain",
+      "Utility"
+    ]
+  },
+  "card_procurement@1/c0_keywords": {
+    "kind": "multi",
+    "options": [
+      "exhaust",
+      "retain",
+      "innate",
+      "ethereal",
+      "once_per_battle"
+    ]
+  },
+  "card_procurement@1/c1_target": {
+    "kind": "choice",
+    "options": [
+      "enemy",
+      "self",
+      "empty",
+      "any"
+    ]
+  },
+  "card_procurement@1/c1_cost": {
+    "kind": "choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  "card_procurement@1/c1_range": {
+    "kind": "choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ]
+  },
+  "card_procurement@1/c1_fx0": {
+    "kind": "choice",
+    "options": [
+      "apply_burn",
+      "apply_shock",
+      "chain_shock",
+      "create_charged_terrain",
+      "create_fire_terrain",
+      "create_water_terrain",
+      "deal_damage",
+      "detonate_burn",
+      "detonate_shock",
+      "draw_cards",
+      "exhaust_self",
+      "gain_block",
+      "gain_mp",
+      "pull",
+      "push",
+      "react_conduct",
+      "react_overload",
+      "react_vaporize",
+      "spread_burn",
+      "teleport",
+      "none"
+    ]
+  },
+  "card_procurement@1/c1_fxv0": {
+    "kind": "choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ]
+  },
+  "card_procurement@1/c1_fxc0": {
+    "kind": "choice",
+    "options": [
+      "none",
+      "target_burning",
+      "target_shocked",
+      "target_on_water",
+      "target_on_fire",
+      "target_on_charged",
+      "after_movement",
+      "hp_below_half",
+      "once_per_battle"
+    ]
+  },
+  "card_procurement@1/c1_fx1": {
+    "kind": "choice",
+    "options": [
+      "apply_burn",
+      "apply_shock",
+      "chain_shock",
+      "create_charged_terrain",
+      "create_fire_terrain",
+      "create_water_terrain",
+      "deal_damage",
+      "detonate_burn",
+      "detonate_shock",
+      "draw_cards",
+      "exhaust_self",
+      "gain_block",
+      "gain_mp",
+      "pull",
+      "push",
+      "react_conduct",
+      "react_overload",
+      "react_vaporize",
+      "spread_burn",
+      "teleport",
+      "none"
+    ]
+  },
+  "card_procurement@1/c1_fxv1": {
+    "kind": "choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ]
+  },
+  "card_procurement@1/c1_fxc1": {
+    "kind": "choice",
+    "options": [
+      "none",
+      "target_burning",
+      "target_shocked",
+      "target_on_water",
+      "target_on_fire",
+      "target_on_charged",
+      "after_movement",
+      "hp_below_half",
+      "once_per_battle"
+    ]
+  },
+  "card_procurement@1/c1_fx2": {
+    "kind": "choice",
+    "options": [
+      "apply_burn",
+      "apply_shock",
+      "chain_shock",
+      "create_charged_terrain",
+      "create_fire_terrain",
+      "create_water_terrain",
+      "deal_damage",
+      "detonate_burn",
+      "detonate_shock",
+      "draw_cards",
+      "exhaust_self",
+      "gain_block",
+      "gain_mp",
+      "pull",
+      "push",
+      "react_conduct",
+      "react_overload",
+      "react_vaporize",
+      "spread_burn",
+      "teleport",
+      "none"
+    ]
+  },
+  "card_procurement@1/c1_fxv2": {
+    "kind": "choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ]
+  },
+  "card_procurement@1/c1_fxc2": {
+    "kind": "choice",
+    "options": [
+      "none",
+      "target_burning",
+      "target_shocked",
+      "target_on_water",
+      "target_on_fire",
+      "target_on_charged",
+      "after_movement",
+      "hp_below_half",
+      "once_per_battle"
+    ]
+  },
+  "card_procurement@1/c1_fx3": {
+    "kind": "choice",
+    "options": [
+      "apply_burn",
+      "apply_shock",
+      "chain_shock",
+      "create_charged_terrain",
+      "create_fire_terrain",
+      "create_water_terrain",
+      "deal_damage",
+      "detonate_burn",
+      "detonate_shock",
+      "draw_cards",
+      "exhaust_self",
+      "gain_block",
+      "gain_mp",
+      "pull",
+      "push",
+      "react_conduct",
+      "react_overload",
+      "react_vaporize",
+      "spread_burn",
+      "teleport",
+      "none"
+    ]
+  },
+  "card_procurement@1/c1_fxv3": {
+    "kind": "choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ]
+  },
+  "card_procurement@1/c1_fxc3": {
+    "kind": "choice",
+    "options": [
+      "none",
+      "target_burning",
+      "target_shocked",
+      "target_on_water",
+      "target_on_fire",
+      "target_on_charged",
+      "after_movement",
+      "hp_below_half",
+      "once_per_battle"
+    ]
+  },
+  "card_procurement@1/c1_fx4": {
+    "kind": "choice",
+    "options": [
+      "apply_burn",
+      "apply_shock",
+      "chain_shock",
+      "create_charged_terrain",
+      "create_fire_terrain",
+      "create_water_terrain",
+      "deal_damage",
+      "detonate_burn",
+      "detonate_shock",
+      "draw_cards",
+      "exhaust_self",
+      "gain_block",
+      "gain_mp",
+      "pull",
+      "push",
+      "react_conduct",
+      "react_overload",
+      "react_vaporize",
+      "spread_burn",
+      "teleport",
+      "none"
+    ]
+  },
+  "card_procurement@1/c1_fxv4": {
+    "kind": "choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ]
+  },
+  "card_procurement@1/c1_fxc4": {
+    "kind": "choice",
+    "options": [
+      "none",
+      "target_burning",
+      "target_shocked",
+      "target_on_water",
+      "target_on_fire",
+      "target_on_charged",
+      "after_movement",
+      "hp_below_half",
+      "once_per_battle"
+    ]
+  },
+  "card_procurement@1/c1_tags": {
+    "kind": "multi",
+    "options": [
+      "Fire",
+      "Lightning",
+      "Water",
+      "Terrain",
+      "Utility"
+    ]
+  },
+  "card_procurement@1/c1_keywords": {
+    "kind": "multi",
+    "options": [
+      "exhaust",
+      "retain",
+      "innate",
+      "ethereal",
+      "once_per_battle"
+    ]
+  },
+  "card_procurement@1/c2_target": {
+    "kind": "choice",
+    "options": [
+      "enemy",
+      "self",
+      "empty",
+      "any"
+    ]
+  },
+  "card_procurement@1/c2_cost": {
+    "kind": "choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  "card_procurement@1/c2_range": {
+    "kind": "choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ]
+  },
+  "card_procurement@1/c2_fx0": {
+    "kind": "choice",
+    "options": [
+      "apply_burn",
+      "apply_shock",
+      "chain_shock",
+      "create_charged_terrain",
+      "create_fire_terrain",
+      "create_water_terrain",
+      "deal_damage",
+      "detonate_burn",
+      "detonate_shock",
+      "draw_cards",
+      "exhaust_self",
+      "gain_block",
+      "gain_mp",
+      "pull",
+      "push",
+      "react_conduct",
+      "react_overload",
+      "react_vaporize",
+      "spread_burn",
+      "teleport",
+      "none"
+    ]
+  },
+  "card_procurement@1/c2_fxv0": {
+    "kind": "choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ]
+  },
+  "card_procurement@1/c2_fxc0": {
+    "kind": "choice",
+    "options": [
+      "none",
+      "target_burning",
+      "target_shocked",
+      "target_on_water",
+      "target_on_fire",
+      "target_on_charged",
+      "after_movement",
+      "hp_below_half",
+      "once_per_battle"
+    ]
+  },
+  "card_procurement@1/c2_fx1": {
+    "kind": "choice",
+    "options": [
+      "apply_burn",
+      "apply_shock",
+      "chain_shock",
+      "create_charged_terrain",
+      "create_fire_terrain",
+      "create_water_terrain",
+      "deal_damage",
+      "detonate_burn",
+      "detonate_shock",
+      "draw_cards",
+      "exhaust_self",
+      "gain_block",
+      "gain_mp",
+      "pull",
+      "push",
+      "react_conduct",
+      "react_overload",
+      "react_vaporize",
+      "spread_burn",
+      "teleport",
+      "none"
+    ]
+  },
+  "card_procurement@1/c2_fxv1": {
+    "kind": "choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ]
+  },
+  "card_procurement@1/c2_fxc1": {
+    "kind": "choice",
+    "options": [
+      "none",
+      "target_burning",
+      "target_shocked",
+      "target_on_water",
+      "target_on_fire",
+      "target_on_charged",
+      "after_movement",
+      "hp_below_half",
+      "once_per_battle"
+    ]
+  },
+  "card_procurement@1/c2_fx2": {
+    "kind": "choice",
+    "options": [
+      "apply_burn",
+      "apply_shock",
+      "chain_shock",
+      "create_charged_terrain",
+      "create_fire_terrain",
+      "create_water_terrain",
+      "deal_damage",
+      "detonate_burn",
+      "detonate_shock",
+      "draw_cards",
+      "exhaust_self",
+      "gain_block",
+      "gain_mp",
+      "pull",
+      "push",
+      "react_conduct",
+      "react_overload",
+      "react_vaporize",
+      "spread_burn",
+      "teleport",
+      "none"
+    ]
+  },
+  "card_procurement@1/c2_fxv2": {
+    "kind": "choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ]
+  },
+  "card_procurement@1/c2_fxc2": {
+    "kind": "choice",
+    "options": [
+      "none",
+      "target_burning",
+      "target_shocked",
+      "target_on_water",
+      "target_on_fire",
+      "target_on_charged",
+      "after_movement",
+      "hp_below_half",
+      "once_per_battle"
+    ]
+  },
+  "card_procurement@1/c2_fx3": {
+    "kind": "choice",
+    "options": [
+      "apply_burn",
+      "apply_shock",
+      "chain_shock",
+      "create_charged_terrain",
+      "create_fire_terrain",
+      "create_water_terrain",
+      "deal_damage",
+      "detonate_burn",
+      "detonate_shock",
+      "draw_cards",
+      "exhaust_self",
+      "gain_block",
+      "gain_mp",
+      "pull",
+      "push",
+      "react_conduct",
+      "react_overload",
+      "react_vaporize",
+      "spread_burn",
+      "teleport",
+      "none"
+    ]
+  },
+  "card_procurement@1/c2_fxv3": {
+    "kind": "choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ]
+  },
+  "card_procurement@1/c2_fxc3": {
+    "kind": "choice",
+    "options": [
+      "none",
+      "target_burning",
+      "target_shocked",
+      "target_on_water",
+      "target_on_fire",
+      "target_on_charged",
+      "after_movement",
+      "hp_below_half",
+      "once_per_battle"
+    ]
+  },
+  "card_procurement@1/c2_fx4": {
+    "kind": "choice",
+    "options": [
+      "apply_burn",
+      "apply_shock",
+      "chain_shock",
+      "create_charged_terrain",
+      "create_fire_terrain",
+      "create_water_terrain",
+      "deal_damage",
+      "detonate_burn",
+      "detonate_shock",
+      "draw_cards",
+      "exhaust_self",
+      "gain_block",
+      "gain_mp",
+      "pull",
+      "push",
+      "react_conduct",
+      "react_overload",
+      "react_vaporize",
+      "spread_burn",
+      "teleport",
+      "none"
+    ]
+  },
+  "card_procurement@1/c2_fxv4": {
+    "kind": "choice",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14"
+    ]
+  },
+  "card_procurement@1/c2_fxc4": {
+    "kind": "choice",
+    "options": [
+      "none",
+      "target_burning",
+      "target_shocked",
+      "target_on_water",
+      "target_on_fire",
+      "target_on_charged",
+      "after_movement",
+      "hp_below_half",
+      "once_per_battle"
+    ]
+  },
+  "card_procurement@1/c2_tags": {
+    "kind": "multi",
+    "options": [
+      "Fire",
+      "Lightning",
+      "Water",
+      "Terrain",
+      "Utility"
+    ]
+  },
+  "card_procurement@1/c2_keywords": {
+    "kind": "multi",
+    "options": [
+      "exhaust",
+      "retain",
+      "innate",
+      "ethereal",
+      "once_per_battle"
+    ]
+  },
+  "music_score@1/prog0": {
+    "kind": "choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "music_score@1/prog1": {
+    "kind": "choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "music_score@1/prog2": {
+    "kind": "choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "music_score@1/prog3": {
+    "kind": "choice",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  "music_score@1/s0": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s1": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s2": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s3": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s4": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s5": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s6": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s7": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s8": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s9": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s10": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s11": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s12": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s13": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s14": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s15": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s16": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s17": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s18": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s19": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s20": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s21": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s22": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s23": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s24": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s25": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s26": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s27": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s28": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s29": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s30": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s31": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s32": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s33": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s34": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s35": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s36": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s37": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s38": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s39": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s40": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s41": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s42": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s43": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s44": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s45": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s46": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s47": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s48": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s49": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s50": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s51": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s52": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s53": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s54": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s55": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s56": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s57": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s58": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s59": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s60": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s61": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s62": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "music_score@1/s63": {
+    "kind": "choice",
+    "options": [
+      "rest",
+      "hold",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  "camp_assessment@1/tempo": {
+    "kind": "choice",
+    "options": [
+      "fast",
+      "steady",
+      "slow"
+    ]
+  },
+  "camp_assessment@1/damage": {
+    "kind": "choice",
+    "options": [
+      "high",
+      "balanced",
+      "low"
+    ]
+  },
+  "camp_assessment@1/tactics": {
+    "kind": "choice",
+    "options": [
+      "high",
+      "balanced",
+      "low"
+    ]
+  },
+  "camp_assessment@1/overall": {
+    "kind": "choice",
+    "options": [
+      "excellent",
+      "good",
+      "steady",
+      "struggling"
+    ]
+  },
+  "encounter_flavor@1/tone": {
+    "kind": "choice",
+    "options": [
+      "grim",
+      "eerie",
+      "solemn",
+      "tense",
+      "triumphant",
+      "calm"
+    ]
+  },
+  "encounter_flavor@1/style_tags": {
+    "kind": "multi",
+    "options": [
+      "冷峻",
+      "诡谲",
+      "肃穆",
+      "悲怆",
+      "昂扬",
+      "静谧",
+      "压抑",
+      "庄严",
+      "异质",
+      "荒诞"
+    ]
+  }
+}

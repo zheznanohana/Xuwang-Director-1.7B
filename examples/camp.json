@@ -1,0 +1,13 @@
+{
+  "channel": "camp_assessment@1",
+  "context": {
+    "battle": {
+      "battle_score": 78,
+      "components": {
+        "tempo": 0.8,
+        "survival": 0.9,
+        "tactics": 0.7
+      }
+    }
+  }
+}
