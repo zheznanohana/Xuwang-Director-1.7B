@@ -1,5 +1,7 @@
 # Xuwang-Director-1.7B · 虚妄决策模型
 
+[中文说明](README.zh-CN.md) | English
+
 **A local game director, not a chatbot.**
 
 **不是让 AI 替我们做游戏，而是为游戏训练一个导演。**
