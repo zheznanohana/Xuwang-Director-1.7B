@@ -1,16 +1,16 @@
-# Xuwang-Director-1.7B · 虚妄决策模型
+# 虚妄 1.7B · 游戏决策模型
 
 [Hugging Face 模型](https://huggingface.co/nanohana233/Xuwang-Director-1.7B) · [训练数据](https://huggingface.co/datasets/nanohana233/Xuwang-Director-Data) · [完整 GitHub Release](https://github.com/zheznanohana/Xuwang-Director-1.7B/releases/tag/v0.1.0)
 
 [中文说明](README.zh-CN.md) | English
 
-**A local game director, not a chatbot.**
+**A local decision model for the game 虚妄余罪.**
 
-**不是让 AI 替我们做游戏，而是为游戏训练一个导演。**
+**用于《虚妄余罪》的本地决策模型。**
 
-Xuwang-Director-1.7B is a task-specific game decision model built from Qwen3-1.7B-Base using LoRA and 193 typed output heads. It scores decisions across ten game-director channels without autoregressive text generation. The game supplies constraints, validation and fallback; the model supplies preferences.
+Xuwang-Director-1.7B is a decision model for the specific game 虚妄余罪 built from Qwen3-1.7B-Base using LoRA and 193 typed output heads. It scores decisions across ten game-director channels without autoregressive text generation. The game supplies constraints, validation and fallback; the model supplies preferences.
 
-虚妄是为战棋卡牌游戏训练的本地 AI 导演。它不输出聊天文本，而是根据游戏状态，为难度调整、遭遇配置、卡牌奖励、Boss 战术和音乐编排等任务输出选项概率。运行时无需第三方云端 API Key；下载模型、安装依赖可能需要联网。
+虚妄是用于《虚妄余罪》的本地决策模型。它不输出聊天文本，而是根据游戏状态，为难度调整、遭遇配置、卡牌奖励、Boss 战术和音乐编排等任务输出选项概率。运行时无需第三方云端 API Key；下载模型、安装依赖可能需要联网。
 
 This is not a Jev implementation or a claim about Jev's internal architecture. Typed decision interfaces are a related design direction; this model uses a documented Qwen backbone and multi-task linear heads.
 
